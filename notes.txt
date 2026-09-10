@@ -1,0 +1,6 @@
+Development Notes
+
+- Check configuration before running the application.
+- Keep temporary debugging files out of production.
+- Test changes locally before pushing.
+- Remember to clean up unused files after debugging.
