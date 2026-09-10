@@ -1,0 +1,24 @@
+# Server settings
+HOST=0.0.0.0
+PORT=8080
+DEBUG=true
+
+# Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=admin
+DB_PASS=securepassword
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=/var/log/app.log
+
+# Security
+ENABLE_AUTH=true
+SESSION_TIMEOUT=3600
+ALLOWED_IPS=192.168.1.0/24
+
+# Application-specific
+CTF_MODE=enabled
+FLAG_PREFIX=CTF{You_aRe_N0T_D0N3_Y3T}
+MAX_ATTEMPTS=5
